@@ -45,7 +45,7 @@ if __name__ == "__main__":
         Config(
             app,
             host="0.0.0.0",
-            port=8095,
+            port=8011,
             reload=False,
             workers=multiprocessing.cpu_count(),
         )
